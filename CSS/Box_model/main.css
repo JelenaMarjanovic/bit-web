@@ -1,0 +1,51 @@
+p {
+    background-color: yellow;
+    border: 5px thick;
+}
+
+.dashed  {
+    border: dashed red;
+    padding: 50px;
+}
+
+.middle {
+    border: solid green;
+    padding-top: 50px;
+    width: 400px;
+    margin: auto;
+    visibility: hidden;
+    
+}
+
+.first {
+    width: 300px;
+    margin: 50px;
+}
+
+.third {
+    width: 200px;
+    margin-left: 100px;
+    visibility: visible;
+}
+
+.margin {
+    margin-right: 20px;
+    padding: 0px;
+    display: inline-block;
+}
+
+.third:hover {
+    visibility: hidden;
+}
+
+h1 {
+    width: 960px;
+    text-align: center;
+    margin: 50px auto;
+    padding: 50px 0px;
+    background-color: blueviolet;
+    color: red;
+    font-family: 'Indie Flower', cursive;
+    box-shadow: 13px 12px 15px 0px rgba(50, 50, 145, 0.73);
+    border-radius: 40px;
+}
