@@ -1,0 +1,21 @@
+#circle {
+    list-style-type: circle;
+}
+#square {
+    list-style-type: square;
+}
+
+#alph {
+    list-style-type: lower-alpha;
+}
+
+#roman {
+    list-style-type: upper-roman;
+}
+.imgmarkers{
+    list-style-image:url(https://assets2.cdn-mw.com/mw/static/app-css-images/global/checkbox.svg);
+    width:200px;
+}
+#inside {
+    list-style-position: inside;
+}
