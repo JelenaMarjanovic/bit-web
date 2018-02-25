@@ -1,0 +1,28 @@
+/* Main navigation */
+.main-nav {
+    width: 90%;
+    margin: 30px auto;
+
+    ul {
+        list-style-type: none;
+        background-color: $main-color;
+        text-align: center;
+
+        li {
+            padding: 5px 0;
+            
+            &:hover {
+                background-color: #1d6fb2;
+            }
+        }
+
+        
+        a {
+            display: block;
+            text-decoration: none;
+            color: $font-color;
+            font-weight: bold;
+            padding: 10px;
+        }
+    }
+}

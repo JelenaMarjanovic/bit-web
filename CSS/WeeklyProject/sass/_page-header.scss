@@ -1,0 +1,36 @@
+/* Page header */
+header {
+    background-image: url('../images/banner3.jpg');
+    background-size: cover;
+    padding: 15% 3% 5% 3%;
+
+    p {
+        text-align: center;
+        color: $font-color;
+        font-size: 1.35rem;
+        font-weight: bold;
+        letter-spacing: 1.5px;
+        margin-bottom: 5%;
+    }
+    
+    .header-btn {
+        display: block;
+        margin: 0 auto;
+        width: 35%;
+        border-radius: 30px;
+        padding: 2.5%;
+        background-color: #1d6fb2;
+        text-align: center;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $logo-build;
+        }
+
+        a {
+            color: $font-color;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+    }
+}

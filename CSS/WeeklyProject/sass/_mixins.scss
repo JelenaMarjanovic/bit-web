@@ -1,0 +1,5 @@
+@mixin line {
+    border-bottom: 2px solid black;
+    width: 40px;
+    transform: translateY(7px);
+}

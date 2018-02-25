@@ -1,0 +1,28 @@
+/* General */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: $custom-font;
+    font-size: 14px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+a, a:hover, a:visited {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}

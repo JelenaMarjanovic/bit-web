@@ -1,0 +1,229 @@
+/* Variables */
+@import 'variables';
+
+/* Mixins */
+@import 'mixins';
+
+/* General */
+@import 'general';
+
+/* Page header */
+@import 'page-header';
+
+/* Logo */
+@import 'logo';
+
+/* Main navigation */
+@import 'main-navigation';
+
+/* Sections: general */
+section {
+    text-align: center;
+    margin: 30px 0;
+    
+    h3 {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    
+    h4 {
+        color: $main-color;
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin: 15px 0;
+    }
+    
+    /* Separator */
+    @import 'separator';
+}
+
+/* Article: general */
+article {
+    text-align: left;
+    padding: 10px;
+}
+
+/* Section: About */
+.about {
+    p {
+        text-align: justify;
+        margin: 20px 0;
+    }
+
+    img {
+        margin: 20px 0;
+    }
+
+    ul {
+        list-style-image: url('../images/arrow_bullet.png');
+        margin: 5px 20px;
+
+        li {
+            color: $logo-color;
+            padding: 10px 0;
+        }
+    }
+}
+
+/* Section: Testimonials */
+.testimonials {
+    padding: 5%;
+
+    .comments-container {
+        margin-top: 20px;
+        padding: 10px;
+
+        comment {
+            display: block;
+            background-color: $main-color;
+            text-align: left;
+            padding: 30px 10px;
+            margin-bottom: 10px;
+
+            .comment-header:after {
+                content: " ";
+                display: block;
+                clear: both;
+            }
+    
+            h5 {
+                font-size: 1rem;
+                letter-spacing: 1.25px;
+                margin: 5px 0;
+            }
+
+            img {
+                height: 100px;
+                padding: 5px;
+                border: 2px solid $comment-inner-color;
+                border-radius: 50%;
+                float: left;
+                margin-right: 15px;
+            }
+
+            .fas {
+                color: $font-color;
+            }
+        }
+
+        p {
+            text-align: justify;
+            color: $font-color;;
+            padding: 2%;
+        }
+    }
+}
+
+/* Section: Get In Touch */
+.get-in-touch {
+    .contacts-container{
+        margin: 35px 0;
+    
+        contact {
+            display: block;
+            color: $font-color;
+            padding: 10% 5%;
+        
+            &#phone-mail {
+                background-color: #3add9a;
+
+                a {
+                    display: inline-block;
+                }
+            }
+
+            &#social-networks {
+                background-color: #fc5282;
+            }
+
+            &#address {
+                background-color: #376ce4;
+            }
+
+            &#house {
+                background-color: #81c3f5;
+                padding: 5%;
+            }
+
+            h6 {
+                font-size: 1rem;    margin: 0 0 15px;
+            }
+
+            img {
+                height: 150px;
+            }
+
+            a {
+                text-decoration: none;
+                color: $font-color;
+                font-size: 1rem;
+                margin: 5px 10px;
+            }
+        }
+
+        iframe {
+            max-width: 100%;
+            height: 300px;
+        }
+
+    }
+}
+
+/* Section: Mail Us */
+.mail-us {
+    input, textarea {
+        font-family: $custom-font;
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin: 20px 0;
+
+        &[type=submit] {
+            width: 25%;
+            background-color: $logo-build;
+            color: $font-color;
+            font-weight: bold;
+            border: none;
+            border-radius: 7px;
+            padding: 7px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: $main-color;
+            }
+        }
+    }
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    background-color: $footer-color;
+    text-align: center;
+    color: $font-color;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 30px 0;
+
+    ul {
+        list-style-type: none;
+        text-align: center;
+        padding: 5px 0;
+        margin: 10px 0;
+
+        li {
+            display: inline-block;
+            padding: 0 5px;
+            
+            a {
+                text-decoration: none;
+                color: $font-color;
+                font-weight: bold;
+            }
+        }
+    }
+    
+    div {
+        margin: 20px 0;
+    }
+}
