@@ -14,15 +14,14 @@
             &:hover {
                 background-color: #1d6fb2;
             }
-        }
-
-        
-        a {
-            display: block;
-            text-decoration: none;
-            color: $font-color;
-            font-weight: bold;
-            padding: 10px;
+            
+            a {
+                display: block;
+                text-decoration: none;
+                color: $font-color;
+                font-weight: bold;
+                padding: 10px;
+            }
         }
     }
 }

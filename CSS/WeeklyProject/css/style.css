@@ -34,7 +34,7 @@ header {
   header p {
     text-align: center;
     color: white;
-    font-size: 1.35rem;
+    font-size: 1.25rem;
     font-weight: bold;
     letter-spacing: 1.5px;
     margin-bottom: 5%; }
@@ -46,6 +46,7 @@ header {
     padding: 2.5%;
     background-color: #1d6fb2;
     text-align: center;
+    font-size: 0.75rem;
     cursor: pointer; }
     header .header-btn:hover {
       background-color: #fd9727; }
@@ -81,12 +82,12 @@ header {
       padding: 5px 0; }
       .main-nav ul li:hover {
         background-color: #1d6fb2; }
-    .main-nav ul a {
-      display: block;
-      text-decoration: none;
-      color: white;
-      font-weight: bold;
-      padding: 10px; }
+      .main-nav ul li a {
+        display: block;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        padding: 10px; }
 
 /* Sections: general */
 section {
@@ -204,18 +205,18 @@ article {
       font-size: 1rem;
       margin: 5px 10px; }
   .get-in-touch .contacts-container iframe {
-    max-width: 100%;
+    width: 100%;
     height: 300px; }
 
 /* Section: Mail Us */
 .mail-us input, .mail-us textarea {
   font-family: "Roboto", sans-serif;
   display: block;
-  width: 100%;
+  width: 95%;
   padding: 10px;
-  margin: 20px 0; }
+  margin: 20px 2.5%; }
   .mail-us input[type=submit], .mail-us textarea[type=submit] {
-    width: 25%;
+    width: 75px;
     background-color: #fd9727;
     color: white;
     font-weight: bold;
@@ -249,5 +250,81 @@ footer {
         font-weight: bold; }
   footer div {
     margin: 20px 0; }
+
+@media only screen and (min-width: 768px) {
+  header {
+    padding-bottom: 15%; }
+    header p {
+      font-size: 2rem; }
+    header .header-btn {
+      font-size: 1.25rem; }
+
+  .logo {
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    color: white;
+    margin-top: 10px; }
+    .logo .build {
+      color: #fd9727;
+      padding: 3px 0 3px 10px;
+      border: 3px solid white;
+      border-right: 0; }
+
+  .main-nav {
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    right: 25px;
+    left: 25px;
+    color: #fff;
+    margin-top: 10px; }
+    .main-nav ul {
+      background-color: transparent;
+      list-style-type: none;
+      text-align: right; }
+      .main-nav ul li {
+        display: inline-block; }
+
+  .about:after {
+    display: block;
+    content: "";
+    clear: both; }
+  .about .first-article {
+    float: left;
+    width: 50%; }
+  .about img {
+    width: 50%; }
+
+  .testimonials:after {
+    display: block;
+    content: "";
+    clear: both; }
+  .testimonials comment {
+    width: 48%;
+    float: left;
+    margin-right: 2%; }
+
+  .get-in-touch:after {
+    display: block;
+    content: "";
+    clear: both; }
+  .get-in-touch contact {
+    float: left;
+    width: 50%;
+    height: 225px; }
+
+  .mail-us:after {
+    display: block;
+    content: "";
+    clear: both; }
+  .mail-us input {
+    float: left;
+    width: 28%;
+    margin-right: 3%; }
+    .mail-us input:nth-of-type(3) {
+      margin-right: 0; }
+    .mail-us input[type=submit] {
+      width: 100px; } }
 
 /*# sourceMappingURL=style.css.map */

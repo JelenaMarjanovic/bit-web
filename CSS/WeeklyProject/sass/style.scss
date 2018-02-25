@@ -162,7 +162,7 @@ article {
         }
 
         iframe {
-            max-width: 100%;
+            width: 100%;
             height: 300px;
         }
 
@@ -174,12 +174,12 @@ article {
     input, textarea {
         font-family: $custom-font;
         display: block;
-        width: 100%;
+        width: 95%;
         padding: 10px;
-        margin: 20px 0;
+        margin: 20px 2.5%;
 
         &[type=submit] {
-            width: 25%;
+            width: 75px;
             background-color: $logo-build;
             color: $font-color;
             font-weight: bold;
@@ -227,3 +227,5 @@ footer {
         margin: 20px 0;
     }
 }
+
+@import 'tablet';

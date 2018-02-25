@@ -1,0 +1,115 @@
+@media only screen and (min-width: 768px) {
+    header {
+        padding-bottom: 15%;
+
+        p {
+            font-size: 2rem;
+        }
+
+        .header-btn {
+            font-size: 1.25rem;
+        }
+    }
+
+    .logo {
+        position: absolute;
+        text-align: left;
+        top: 0px;
+        color: white;
+        margin-top: 10px;
+
+        .build {
+            color: $logo-build;
+            padding: 3px 0 3px 10px;
+            border: 3px solid white;
+            border-right: 0;
+        }
+    }
+
+    .main-nav {
+        position: absolute;
+        text-align: left;
+        top: 0px;
+        right: 25px;
+        left: 25px;
+        color: #fff;
+        margin-top: 10px;
+
+        ul {
+            background-color: transparent;
+            list-style-type: none;
+            text-align: right;
+
+            li {
+                display: inline-block;
+            }
+        }
+    }
+
+    .about {
+        &:after {
+            display: block;
+            content: "";
+            clear: both;
+        }
+
+        .first-article {
+            float: left;
+            width: 50%;    
+        }
+        
+        img {
+            width: 50%;
+        }
+    }
+
+    .testimonials {
+        &:after {
+            display: block;
+            content: "";
+            clear: both;
+        }
+
+        comment {
+            width: 48%;
+            float: left;
+            margin-right: 2%;
+        }
+    }
+
+    .get-in-touch {
+        &:after {
+            display: block;
+            content: "";
+            clear: both;
+        }
+
+        contact {
+            float: left;
+            width: 50%;
+            height: 225px;
+        }
+    }
+
+    .mail-us {
+        &:after {
+            display: block;
+            content: "";
+            clear: both;
+        }
+
+        input {
+            float: left;
+            width: 28%;
+            margin-right: 3%;
+
+            &:nth-of-type(3) {
+                margin-right: 0
+            }
+
+            &[type=submit] {
+                width: 100px;
+            }
+        }
+    }
+}
