@@ -1,0 +1,32 @@
+/* Variables */
+/* Global */
+h1 {
+  font-size: 1.25rem;
+  color: white; }
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  text-align: center; }
+
+hr {
+  background: white;
+  width: 30%;
+  height: 2px; }
+
+h4 {
+  font-size: 0.75rem;
+  color: white;
+  text-align: center; }
+
+/* Header */
+header {
+  background-color: #18bc9c;
+  padding: 10%; }
+  header img {
+    display: block;
+    margin: 0 auto;
+    padding: 10% 0; }
+
+/*# sourceMappingURL=main.css.map */

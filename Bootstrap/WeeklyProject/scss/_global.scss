@@ -1,0 +1,23 @@
+h1 {
+    font-size: 1.25rem;
+    color: $font-color;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: $font-color;
+    text-align: center;
+}
+
+hr {
+    background: white;
+    width: 30%;
+    height: 2px;
+}
+
+h4 {
+    font-size: 0.75rem;
+    color: $font-color;
+    text-align: center;
+}
