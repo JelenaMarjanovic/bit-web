@@ -1,0 +1,33 @@
+.nav-holder {
+    background-color: $blueish;
+    font-family: $main-font;
+    color: $font-color;
+    padding: 5px 0;
+}
+
+.navbar-brand {
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+
+.navbar-toggler {
+    background-color: $greenish;
+    padding: .20rem .75rem;
+}
+
+.menu-label {
+    font-size: 1.1rem;
+    font-weight: 700;
+    vertical-align: middle;
+}
+
+.nav-link {
+    font-weight: 900;
+    color: $font-color;
+}
+
+@media (min-width: 992px) {
+    .navbar-toggleable-md .navbar-nav {
+        margin-left: auto;
+    }
+}

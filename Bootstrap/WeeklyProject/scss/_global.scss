@@ -1,23 +1,94 @@
-h1 {
-    font-size: 1.25rem;
+body {
+    font-family: $main-font;
+}
+
+.container {
+    max-width: 960px;
+}
+
+button {
+    font-family: $main-font;
+}
+
+a {
+    text-decoration: none;
     color: $font-color;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    color: $font-color;
+    font-size: 2em;
+    font-weight: 900;
+    padding: 5% 5% 0 5%;
 }
 
 h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    color: $font-color;
-    text-align: center;
+    font-size: 2.5em;
+    font-weight: 900;
 }
 
-hr {
-    background: white;
-    width: 30%;
-    height: 2px;
+h3 {
+    font-size: 1.7rem;
+    font-weight: 900;
+    margin-bottom: 20px;
 }
 
 h4 {
-    font-size: 0.75rem;
-    color: $font-color;
+    font-size: 1.2rem;
+}
+
+.separator {
+    display: inline-block;
+    width: 180px;
+    margin: 10px 0;
+
+    .separator-left,
+    .separator-right {
+        display: inline-block;
+        vertical-align: middle;
+        width: calc(50% - 20px);
+        height: 3px;
+        background-color: $inverse-color;
+    }
+
+    .separator-sign {
+        color: $inverse-color;
+        margin: 0 5px;
+    }
+
+    &.main {
+        .separator-left,
+        .separator-right {
+            background-color: $font-color;
+        }
+
+        .separator-sign {
+            color: $font-color;
+        }
+    }
+}
+
+.section-headline-holder {
     text-align: center;
+    color: $inverse-color;
+    padding: 7% 0 3% 0;
+    
+    &.inverse {
+        color: $font-color;
+
+        .separator {
+            .separator-left,
+            .separator-right {
+                background-color: $font-color;
+            }
+            
+            .separator-sign {
+                color: $font-color;
+            }
+        }
+    }
 }

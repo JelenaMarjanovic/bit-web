@@ -1,0 +1,40 @@
+.portfolio-row {
+    padding: 0 10% 10% 10%;
+    >div {
+        margin-bottom: 10px;
+    }
+}
+
+.about-section {
+    padding: 5%;
+    background-color: $greenish;
+    color: $font-color;
+}
+
+.about-btn {
+    display: block;
+    margin: 0 auto;
+    background-color: $greenish;
+    color: $font-color;
+    border: 1px solid $font-color;
+    margin-top: 20px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-control {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    &:last-child {
+        border-bottom: 0;
+    }
+}
+
+.btn-form {
+    background-color: $greenish;
+    color: $font-color;
+}
