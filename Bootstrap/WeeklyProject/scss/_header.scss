@@ -7,3 +7,12 @@ header {
 .hero-row {
     padding: 40px;
 }
+
+.main-links > a {
+    transition: color .2s ease;
+
+    &:hover {
+        text-decoration: none;
+        color: $blueish;
+    }
+}
