@@ -1,0 +1,15 @@
+.mojaKlasa {
+    background-color: #ccc;
+}
+
+.aktivni:active {
+    background-color: pink;
+}
+
+.mojLi {
+    background-color: red;
+}
+
+.mojLastUl {
+    background-color: aquamarine;
+}
