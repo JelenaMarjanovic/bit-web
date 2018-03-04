@@ -1,0 +1,29 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+div {
+    background-color: #0212fe;
+    background-image: url("./img/bg.jpg");
+    background-repeat: repeat-x;
+    background-position-y: bottom;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+img {
+    position: absolute;
+    width: 100px;
+    left: 47.5%;
+    bottom: 90px;
+}
+
+#running-mario {
+    display: none;
+}
